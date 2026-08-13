@@ -43,8 +43,8 @@ function circle(name) {
 }
 
 function show(tabId, icon, title) {
-  chrome.action.setIcon({ tabId, imageData: circle(icon) });
-  chrome.action.setTitle({ tabId, title });
+  chrome.action.setIcon({ tabId, imageData: circle(icon) }).catch(() => {});
+  chrome.action.setTitle({ tabId, title }).catch(() => {});
 }
 
 chrome.action.setIcon({ imageData: circle("unknown") });
