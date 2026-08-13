@@ -1,0 +1,16 @@
+{
+  "extension_name": { "message": "Esquema de color del sitio" },
+  "extension_description": { "message": "Alterna el esquema de color preferido en cada sitio" },
+  "not_available": { "message": "No disponible" },
+  "light": { "message": "Claro" },
+  "light_default": { "message": "Claro (predeterminado)" },
+  "light_override": { "message": "Claro (forzado)" },
+  "light_pattern": { "message": "Claro ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "dark": { "message": "Oscuro" },
+  "dark_default": { "message": "Oscuro (predeterminado)" },
+  "dark_override": { "message": "Oscuro (forzado)" },
+  "dark_pattern": { "message": "Oscuro ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "restart_your_browser": { "message": "reinicia tu navegador" },
+  "setup_spiel_1": { "message": "Esquema de color del sitio necesita la API Web Preferences." },
+  "setup_spiel_2": { "message": "Actívala en $URL$ (o inicia con $FLAG$) y luego $RESTART$.", "placeholders": { "url": { "content": "$1" }, "flag": { "content": "$2" }, "restart": { "content": "$3" } } }
+}

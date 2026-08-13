@@ -1,0 +1,16 @@
+{
+  "extension_name": { "message": "Thème de couleur du site" },
+  "extension_description": { "message": "Basculer le thème de couleur préféré site par site" },
+  "not_available": { "message": "Non disponible" },
+  "light": { "message": "Clair" },
+  "light_default": { "message": "Clair (par défaut)" },
+  "light_override": { "message": "Clair (forcé)" },
+  "light_pattern": { "message": "Clair ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "dark": { "message": "Sombre" },
+  "dark_default": { "message": "Sombre (par défaut)" },
+  "dark_override": { "message": "Sombre (forcé)" },
+  "dark_pattern": { "message": "Sombre ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "restart_your_browser": { "message": "redémarrez votre navigateur" },
+  "setup_spiel_1": { "message": "Thème de couleur du site nécessite l'API Web Preferences." },
+  "setup_spiel_2": { "message": "Activez-la dans $URL$ (ou lancez avec $FLAG$), puis $RESTART$.", "placeholders": { "url": { "content": "$1" }, "flag": { "content": "$2" }, "restart": { "content": "$3" } } }
+}

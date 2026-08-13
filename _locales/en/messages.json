@@ -1,0 +1,16 @@
+{
+  "extension_name": { "message": "Site Color Scheme" },
+  "extension_description": { "message": "Toggle preferred color scheme on a per-site basis" },
+  "not_available": { "message": "Not available" },
+  "light": { "message": "Light" },
+  "light_default": { "message": "Light (default)" },
+  "light_override": { "message": "Light (override)" },
+  "light_pattern": { "message": "Light ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "dark": { "message": "Dark" },
+  "dark_default": { "message": "Dark (default)" },
+  "dark_override": { "message": "Dark (override)" },
+  "dark_pattern": { "message": "Dark ($PATTERN$)", "placeholders": { "pattern": { "content": "$1" } } },
+  "restart_your_browser": { "message": "restart your browser" },
+  "setup_spiel_1": { "message": "Site Color Scheme needs the Web Preferences API." },
+  "setup_spiel_2": { "message": "Enable it at $URL$ (or launch with $FLAG$), then $RESTART$.", "placeholders": { "url": { "content": "$1" }, "flag": { "content": "$2" }, "restart": { "content": "$3" } } }
+}

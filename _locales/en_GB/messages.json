@@ -1,0 +1,11 @@
+{
+  "extension_name": { "message": "Site Colour Scheme" },
+  "not_available": { "message": "Not available, innit" },
+  "light_default": { "message": "Light (default), innit" },
+  "light_override": { "message": "Light (override), innit" },
+  "light_pattern": { "message": "Light ($PATTERN$), innit", "placeholders": { "pattern": { "content": "$1" } } },
+  "dark_default": { "message": "Dark (default), innit" },
+  "dark_override": { "message": "Dark (override), innit" },
+  "dark_pattern": { "message": "Dark ($PATTERN$), innit", "placeholders": { "pattern": { "content": "$1" } } },
+  "setup_spiel_1": { "message": "Site Colour Scheme needs the Web Preferences API." }
+}
